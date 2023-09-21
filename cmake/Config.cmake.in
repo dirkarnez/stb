@@ -2,6 +2,6 @@
 
 include("${CMAKE_CURRENT_LIST_DIR}/stbTargets.cmake")
 
-check_required_components( "stb::image" )
+# check_required_components("image")
 
-add_library(stb::image ALIAS stb_image)
+# add_library(stb::image ALIAS image)
