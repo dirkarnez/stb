@@ -4,6 +4,7 @@ project (stb VERSION 1.0.0 LANGUAGES C CXX)
 # add the stl_reader as a single target:
 add_library(stb_image INTERFACE)
 
+# see https://github.com/abseil/abseil-cpp
 target_include_directories(stb_image
   INTERFACE
   "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/>"
